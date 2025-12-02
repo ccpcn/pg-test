@@ -1,0 +1,12 @@
+{
+  "name": "node-starter",
+  "private": true,
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "pg": "^8.16.3"
+  }
+}
