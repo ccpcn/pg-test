@@ -1,11 +1,11 @@
 import pg from 'pg';
 
 var client = new pg.Client({
-  user: 'che_db1_user',
-  password: 'GRjQXHma6GSH6ctJjXQOWGZGxRP6eWJb',
-  database: 'che_db1',
-  port: 5432,
-  host: 'dpg-d4irugkhg0os73a5pr40-a.frankfurt-postgres.render.com',
+  user: process.env.user,
+  password: process.env.password,
+  database: process.env.database,
+  port: process.env.port,
+  host: process.env.host,
   ssl: true,
 });
 
